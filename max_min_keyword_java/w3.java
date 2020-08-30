@@ -1,4 +1,4 @@
-public class w3 {
+public class w3{
 	public static void main(String args[]){
 
 	// 5 6 7 8 9 1000 999 99
