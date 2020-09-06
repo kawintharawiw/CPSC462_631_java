@@ -5,7 +5,7 @@ class one {
     int i[] = new int[5];
     int plus = 0, Minus = 0, Multi = 0, Divide = 0;
     for (int k=0; k<5; k++) {
-    i[j] = Integer.parseInt(stdin.readLine());
+    i[k] = Integer.parseInt(stdin.readLine());
     }
     for (int k=0; k<5; k++) {
       plus = i[0] + i[1] + i[2] + i[3] + i[4];
