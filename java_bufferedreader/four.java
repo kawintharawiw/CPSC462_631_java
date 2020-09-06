@@ -7,17 +7,17 @@ class four {
     int min = 999;
     int tot = 0;
     double average;
-    for (int j=0; j<5; j++) {
-    i[j] = Integer.parseInt(stdin.readLine());
+    for (int k=0; k<5; k++) {
+    i[k] = Integer.parseInt(stdin.readLine());
     }
-    for (int j=0; j<5; j++) {
-      if (i[j] > max) {
-      max = i[j];
+    for (int k=0; k<5; k++) {
+      if (i[k] > max) {
+      max = i[k];
       }
-      if (i[j] < min) {
-      min = i[j];
+      if (i[k] < min) {
+      min = i[k];
       }
-      tot += i[j];
+      tot += i[k];
     }
     average = tot / i.length;
     System.out.println("max = " + max);
