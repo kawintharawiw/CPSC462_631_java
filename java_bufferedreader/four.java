@@ -8,14 +8,14 @@ class four {
     int tot = 0;
     double average;
     for (int j=0; j<5; j++) {
-      i[j] = Integer.parseInt(stdin.readLine());
+    i[j] = Integer.parseInt(stdin.readLine());
     }
     for (int j=0; j<5; j++) {
       if (i[j] > max) {
-        max = i[j];
+      max = i[j];
       }
       if (i[j] < min) {
-        min = i[j];
+      min = i[j];
       }
       tot += i[j];
     }
