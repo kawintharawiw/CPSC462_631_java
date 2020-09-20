@@ -40,13 +40,13 @@ class bb extends aa{
       for(int i = 0; i < 3; i++){
         for(int k = 0; k < 3; k++){		
                 if(i == 0){
-                    System.out.print(" , ID = " + data[i][k]);
+                    System.out.print(" | ID = " + data[i][k]);
                 }
                 else if(i == 1){
-                    System.out.print(" , Name = " + data[i][k]);
+                    System.out.print(" | Name = " + data[i][k]);
                 }
                 else if(i == 2){
-                    System.out.print(" , Salary = " + data[i][k]);
+                    System.out.print(" | Salary = " + data[i][k]);
                 }
                 else{
                     System.out.print("Error");
@@ -55,9 +55,9 @@ class bb extends aa{
                     sum +=Integer.parseInt(data[2][k]);
                 }           
             }
-            System.out.println(" , ");
+            System.out.println(" | ");
         }
-        System.out.println("***************************************");
+        System.out.println("*****************************************************");
 	    
         System.out.println("Total = " + (sum)+ " $");
         System.out.println("Social Security = " + (500)+ " $");
