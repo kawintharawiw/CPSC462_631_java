@@ -1,0 +1,8 @@
+cpsc231,java
+cpsc232,hci
+cpsc233,php
+cpsc234,c#
+cpsc235,oop
+cpsc236,os
+cpsc237,mysql
+cpsc238,db
